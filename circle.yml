@@ -1,0 +1,5 @@
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync dist s3://git-cms.gulpdigital.com/ --delete --region eu-west-2
