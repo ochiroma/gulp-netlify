@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "eslint-config-netlify"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.dev.js"
+      }
+    }
+  },
+  "globals": {
+    "CMS_ENV": true
+  }
+}

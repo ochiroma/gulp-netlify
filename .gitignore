@@ -1,0 +1,8 @@
+dist/
+bin/
+node_modules/
+npm-debug.log
+.DS_Store
+.tern-project
+yarn-error.log
+.vscode/
