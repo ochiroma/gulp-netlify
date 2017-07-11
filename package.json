@@ -19,7 +19,8 @@
     "lint:staged": "lint-staged",
     "deps": "npm-check -s",
     "deps:update": "npm-check -u",
-    "cp-config": "cp config.yml dist"
+    "cp-config": "cp config.yml dist",
+    "postinstall": "npm run build"
   },
   "lint-staged": {
     "*.js": [
